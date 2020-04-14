@@ -38,8 +38,7 @@ export default class app extends React.Component{
   render(){
 
     return(
-      //<Douches douches={this.state.douches}/>
-      <SignIn />
+      <Douches douches={this.state.douches}/>
     );
 
   }
