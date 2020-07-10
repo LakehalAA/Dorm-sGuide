@@ -38,7 +38,7 @@ export default class app extends React.Component{
   render(){
 
     return(
-      <Douches douches={this.state.douches}/>
+      <Info />
     );
 
   }
